@@ -68,19 +68,19 @@ function Navigation(options) {
      * ADD ELEMENTS
      */
     if (options.showBackButton) {
-        $('#nav-body-ctrls').append('<i id="nav-ctrls-back" class="nav-icons disabled" title="Go back">' + this.SVG_BACK + '</i>');
+        $('#nav-body-ctrls').append('<i id="nav-ctrls-back" class="nav-icons disabled">' + this.SVG_BACK + '</i>');
     }
     if (options.showForwardButton) {
-        $('#nav-body-ctrls').append('<i id="nav-ctrls-forward" class="nav-icons disabled" title="Go forward">' + this.SVG_FORWARD + '</i>');
+        $('#nav-body-ctrls').append('<i id="nav-ctrls-forward" class="nav-icons disabled">' + this.SVG_FORWARD + '</i>');
     }
     if (options.showReloadButton) {
-        $('#nav-body-ctrls').append('<i id="nav-ctrls-reload" class="nav-icons disabled" title="Reload page">' + this.SVG_RELOAD + '</i>');
+        $('#nav-body-ctrls').append('<i id="nav-ctrls-reload" class="nav-icons disabled">' + this.SVG_RELOAD + '</i>');
     }
     if (options.showUrlBar) {
-        $('#nav-body-ctrls').append('<input id="nav-ctrls-url" type="text" title="Enter an address or search term"/>')
+        $('#nav-body-ctrls').append('<input id="nav-ctrls-url" type="text"/>')
     }
     if (options.showAddTabButton) {
-        $('#nav-body-tabs').append('<i id="nav-tabs-add" class="nav-icons" title="Add new tab">' + this.SVG_ADD + '</i>');
+        $('#nav-body-tabs').append('<i id="nav-tabs-add" class="nav-icons">' + this.SVG_ADD + '</i>');
     }
     /**
      * ADD CORE STYLE
